@@ -6,6 +6,6 @@ Example api Rick And Morty API: https://rickandmortyapi.com/api.
 
 Example code.
 ```
-    const url = 'https://rickandmortyapi.com/api';
-    const { data: null, loading: true, error: null } = useFetch();
+    const url = 'https://rickandmortyapi.com/api'; // <- this is the parameter you receive.
+    const { data: null, loading: true, error: null } = useFetch( url ); // <- receiving parameter.
 ```
